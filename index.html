@@ -2,13 +2,18 @@
 <html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
     <script src="app.js"></script>
     <title>Angular Services Twitter Handles</title>
 </head>
-<body ng-controller="MyController">
-    <div>
-        <p>You're new Twitter name is @{{adj}}_{{noun}}.</p>
+<body ng-controller="MyController" class="container">
+    <div class="row">
+        <div class="twitter col-md-10 col-md-offset-1">
+            <h1 class="well">You're new Twitter name is @{{adj}}_{{noun}}.</h1>
+        </div>
     </div>
 
 </body>
